@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .listitem{
+        @apply px-4 text-lg text-white font-medium hover:text-gray-600
+    }
+}
